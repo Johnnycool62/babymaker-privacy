@@ -1,60 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Baby Maker — Privacy Policy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Baby Maker AI</title>
   <style>
-    body {
-      font-family: Georgia, serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 24px;
-      color: #333;
-      line-height: 1.7;
-    }
-    h1 { font-size: 28px; margin-bottom: 8px; }
-    h2 { font-size: 18px; margin-top: 32px; }
-    p  { margin-bottom: 16px; }
-    .updated { color: #888; font-size: 14px; margin-bottom: 32px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #1a1a1a; }
+    h2 { color: #333; margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+    p { margin: 12px 0; }
+    ul { margin: 12px 0; padding-left: 24px; }
+    .updated { color: #888; font-size: 14px; }
+    .highlight { background: #fff8e1; border-left: 4px solid #f9a825; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
   </style>
 </head>
 <body>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: April 2026</p>
+  <p class="updated">Last updated: July 27, 2026</p>
 
-  <p>Baby Maker ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our mobile application.</p>
+  <p>This Privacy Policy describes how Baby Maker AI ("we", "us", or "our") collects, uses, and handles your information when you use our mobile application ("the App").</p>
 
   <h2>1. Information We Collect</h2>
-  <p>Baby Maker does not collect, store, or share any personal information. The photos you upload are sent directly to our secure API for processing and are never stored on our servers.</p>
-
-  <h2>2. Photos and Images</h2>
-  <p>Photos uploaded by users are transmitted securely to generate AI predictions. These photos are processed in real time and are immediately discarded after the prediction is generated. We do not store, share, or use your photos for any other purpose.</p>
-
-  <h2>3. Third-Party Services</h2>
-  <p>Baby Maker uses the following third-party services to power its features:</p>
+  <p>The only data collected by Baby Maker AI is:</p>
   <ul>
-    <li><strong>Anthropic Claude</strong> — used to analyze parent photos. Images are processed according to <a href="https://www.anthropic.com/privacy">Anthropic's Privacy Policy</a>.</li>
-    <li><strong>OpenAI DALL-E</strong> — used to generate baby images. Images are processed according to <a href="https://openai.com/privacy">OpenAI's Privacy Policy</a>.</li>
-    <li><strong>RevenueCat</strong> — used to manage subscriptions. Data is handled according to <a href="https://www.revenuecat.com/privacy">RevenueCat's Privacy Policy</a>.</li>
+    <li><strong>Photos you upload:</strong> You voluntarily upload two photos of adults (parents) to generate an AI image of a potential future child. These photos may contain facial data.</li>
+  </ul>
+  <p>We do <strong>not</strong> collect your name, email address, or location. The App generates an anonymous identifier for your device in order to track free-trial usage and manage your subscription. This identifier is not linked to your identity and cannot be used to contact you.</p>
+
+  <h2>2. Face Data — Collection, Use, and Storage</h2>
+  <div class="highlight">
+    <p><strong>What face data does the app collect?</strong><br>
+    The app temporarily processes photos uploaded by the user. These photos may contain the faces of two adults chosen by the user.</p>
+
+    <p><strong>How is face data used?</strong><br>
+    The photos are transmitted to Anthropic's Claude API for two purposes only: (1) to verify that each photo contains a clear image of an adult face, and (2) to analyze facial features in order to write a text description of a hypothetical child. The face data is used for no other purpose.</p>
+
+    <p><strong>Is face data shared with third parties?</strong><br>
+    Photos are transmitted only to Anthropic's Claude API for the validation and analysis described above. Anthropic does not use data submitted through its API to train its models. The resulting image is created by OpenAI's image generation API using only a <strong>text description</strong> — your photos are never sent to OpenAI. No other third parties receive your photos or face data.</p>
+
+    <p><strong>Where is face data stored?</strong><br>
+    Photos are <strong>not stored</strong> by Baby Maker AI on any server or database. They are transmitted in real time for processing and immediately discarded. We do not retain, archive, or store any photos or facial data.</p>
+
+    <p><strong>How long is face data retained?</strong><br>
+    Zero retention. Photos are processed in real time and are not stored or retained by us at any point. Anthropic's data retention policies apply to their temporary processing of the request.</p>
+  </div>
+
+  <h2>3. How We Use Your Information</h2>
+  <p>The photos you upload are used solely to:</p>
+  <ul>
+    <li>Verify that each photo contains a clear image of an adult face</li>
+    <li>Analyze facial features in order to generate a written description of a hypothetical future child</li>
+    <li>Produce an AI-generated image from that written description</li>
+    <li>Display the generated image to you within the App</li>
+  </ul>
+  <p>Your photos are never used for advertising, analytics, training AI models, or any other purpose.</p>
+
+  <h2>4. Third-Party Services</h2>
+  <p>Baby Maker AI uses the following third-party services:</p>
+  <ul>
+    <li><strong>Anthropic (Claude API):</strong> Used to validate uploaded photos and analyze facial features. Photos are transmitted to Anthropic for this processing and are not retained. View Anthropic's privacy policy at <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</li>
+    <li><strong>OpenAI (image generation API):</strong> Used to generate the baby image from a text description. <strong>No photos are sent to OpenAI</strong> — only the written description produced in the previous step. View OpenAI's privacy policy at <a href="https://openai.com/privacy">openai.com/privacy</a>.</li>
+    <li><strong>RevenueCat:</strong> Used to manage in-app subscriptions. RevenueCat may collect anonymous purchase and subscription data. View their privacy policy at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</li>
   </ul>
 
-  <h2>4. Subscriptions and Payments</h2>
-  <p>All payments are processed through the Google Play Store. We do not collect or store any payment information. Subscription management is handled through RevenueCat.</p>
-
-  <h2>5. Children's Privacy</h2>
-  <p>Baby Maker is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+  <h2>5. User Consent</h2>
+  <p>By using the App and uploading photos, you consent to:</p>
+  <ul>
+    <li>The temporary transmission of your photos to Anthropic's Claude API for face validation and feature analysis</li>
+    <li>The processing of facial data contained in those photos solely for the purpose of generating a baby image</li>
+  </ul>
+  <p>The App displays an age gate requiring users to confirm they are 18 or older before using the App. By proceeding, users also confirm that any photos uploaded are of adults aged 18 or older.</p>
 
   <h2>6. Data Security</h2>
-  <p>All data transmitted between the app and our servers is encrypted using HTTPS. We take reasonable measures to protect your information from unauthorized access.</p>
+  <p>We transmit all data over encrypted HTTPS connections. Since we do not store your photos or personal data on our servers, there is no stored data that could be compromised.</p>
 
-  <h2>7. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the date at the top of this page.</p>
+  <h2>7. Children's Privacy</h2>
+  <p>Baby Maker AI is intended for adults aged 18 and older. We do not knowingly collect information from anyone under 18. The App includes an age gate to prevent use by minors. Users are also required to only upload photos of adults aged 18 or older.</p>
 
-  <h2>8. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-  <p><strong>Email:</strong> support@babymaker.app</p>
+  <h2>8. Your Rights</h2>
+  <p>Since we do not store your photos on our servers, there is no stored photo data to request, modify, or delete. If you have questions about data processed by Anthropic, OpenAI, or RevenueCat, please refer to their respective privacy policies.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>10. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy or how your data is handled, please contact us at:</p>
+  <p><strong>Email:</strong> coucherjohn@gmail.com<br>
+  <strong>Address:</strong> 333 Maple, Harrow, Ontario, N0R1G0, Canada</p>
 
 </body>
 </html>
